@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE perfil SYSTEM "gramatica.dtd">
+
+<perfil>
+    <nombre>KevinPro_99</nombre>
+    <juego plataforma="Xbox">Need for Speed</juego>
+    <nivel>Leyenda</nivel>
+    
+    <biografia>Entusiasta de la velocidad y los juegos de carreras. Siempre buscando mejorar el tiempo en pista.</biografia>
+    
+    <logros>
+        <logro>Campeón de la temporada 2025</logro>
+        <logro>Coleccionista de autos clásicos</logro>
+        <logro>Nivel 100 alcanzado</logro>
+    </logros>
+</perfil>

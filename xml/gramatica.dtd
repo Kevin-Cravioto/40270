@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT perfil (nombre, juego, nivel, biografia, logros)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT juego (#PCDATA)>
+<!ELEMENT nivel (#PCDATA)>
+
+<!ELEMENT biografia (#PCDATA)>
+
+<!ELEMENT logros (logro+)>
+<!ELEMENT logro (#PCDATA)>
+
+<!ATTLIST juego plataforma (Xbox | PC | PS5) "Xbox">
