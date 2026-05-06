@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+
+    <h1 id="id1">Titulo</h1>
+    <h2 id="id2">DOM Document Object Model</h2>
+    <h2>API Application Programming Interface</h2>
+    <p id="id3">Esto es un parrafo</p>
+
+    <input type="text">
+    <button id="id4" onclick="escribir()">olis</button>
+
+    <script>
+
+        var elemento = [1,2,3,4];
+
+        function nombre() {
+            console.log("asi mismo");
+        }
+
+        for (let k in elemento) {
+            console.log(elemento[k]);
+        }
+
+        for (let i = 0; i < elemento.length; i++) {
+            console.log(elemento[i]);
+        }
+
+        console.log("keloke bro te habla mistel bis");
+
+        for (let i = 0; i < 10; i++) {
+            if (i <= 8)
+                console.log("asi mismo");
+        }
+
+        nombre();
+
+        // Manipulación del DOM
+        let html = document;
+        let html2 = html.getElementById("id1");
+
+        console.log(html2.innerText);
+        html2.innerText = "Fin de la clase";
+
+        function escribir() {
+            let entrada = document.getElementsByTagName("input");
+
+            let valor_entrada = entrada[0].value;
+
+            console.log(valor_entrada);
+
+            html2.innerText = valor_entrada;
+        }
+
+    </script>
+
+</body>
+</html>

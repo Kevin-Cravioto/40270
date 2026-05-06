@@ -1,0 +1,31 @@
+button{
+    width: 33.3%;
+    height: 20%;
+    padding: 10%;
+    /*padding-bottom: 20px;
+    padding-top: 20px;*/
+}
+
+button [id="b0"]{
+    width: 100%;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 100%;
+}
+
+button [id="suma"]{
+    width: 10px;
+    height: 10px;
+}
+
+.operadores{
+    background-color: azure;
+    width: 33.3%;
+}
