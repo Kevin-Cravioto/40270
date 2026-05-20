@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black
+        }
+    </style>
+</head>
+<body>
+    <h1>Mostrar informacion gg</h1>
+    <button onclick="cargar_info()">Cargar :)</button>
+    <table id="tabla">
+        <!-- tr>td{$}*2+tr>td{$}*2 -->
+    </table>
+
+    <script>
+        let datos = ["nombre", "pwd", "john", 123, "jane", 456]
+
+        function cargar_info(){
+            let tabla = document.getElementById("tabla")
+            
+            let t = ""
+            
+            for (let i = 0; i < datos.length; i += 2) {
+                t += "<tr>"
+                
+                t += "<td>" + datos[i] + "</td>"   
+                t += "<td>" + datos[i+1] + "</td>" 
+                t += "</tr>"
+            }
+            
+            tabla.innerHTML = t
+        }
+    </script>
+</body>
+</html>

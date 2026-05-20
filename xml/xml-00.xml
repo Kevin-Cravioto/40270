@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno>
+        <nombre> Eren Jaeguer </nombre>
+        <nacimiento>30/marzo/835</nacimiento>
+    </alumno>
 
-<alumno>
-    <nombre> Eren Jaeguer </nombre>
-    <nacimiento>30/marzo/835</nacimiento>
-</alumno>
+    <alumno>
+        <nombre>Samuel Landa</nombre>
+        <nacimiento>12/12/1999</nacimiento>
+    </alumno>
+</alumnos>
+
 
